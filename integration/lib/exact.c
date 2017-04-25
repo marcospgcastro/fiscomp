@@ -13,12 +13,23 @@ int main (void) {
 
   double derive, delta_x, x=3;
 
-  for(long int i=1; i<=100000000; i=i*10)
-  {
-    delta_x = (double)1/i;
-    derive = ( f(x+delta_x) - f(x) )/delta_x;
-    printf("%10.10f\n",derive);
-  }
+  derive = (double)exp(x/3)*sin(x*x)*( (double)1/3 + (double)2*x*cos(x*x)/sin(x*x) - (double)x/( (x*x + 4) ) )/( sqrt(x*x + 4) );
+  printf("\n%10.10f\n",derive);
 
   return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
