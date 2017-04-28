@@ -1,0 +1,31 @@
+
+    Calcule a derivada numérica da função:
+
+    		f(x)=[sen(x^2) exp(x/3)]/[√(x^2+4)]
+
+no ponto x=3 usando o método de Euler simples com passo de discretização
+entre Δt=10^{-8} e Δt=1 (ou seja, 10^{-8}, 10^{-7}, 10^{-6},…, 1) e faça
+um gráfico mostrando a diferença relativa entre a derivada numérica  e o
+valor  exato da derivada.
+
+[Pergunta]  Entre  quais  valores  de  Δt  a  aproximação  é  aceitável?
+
+
+========================================================================
+
+
+    Integre a equação diferencial:
+    
+     	dy/dt - y = -(1/2)exp(t/2)sen(5t) + 5exp(t/2)cos(5t)
+     
+com a condição  inicial y(0)=1  com  o  método  de  Euler  simples  para
+diferentes valores de passo Δt=0.1, Δt=0.05, Δt=0.01, Δt=0.005, Δt=0.001
+e compare cada solução em t=1,2,3,4 e 5 com a solução exata:
+
+  		  y(t)=exp(t) + exp(t/2)sen(5t).
+    
+    Faça um gráfico com a solução para Δt=0.05  entre  t=0  e  t=5  e  a 
+solução exata. Repita o item anterior utilizando o método de Runge-Kutta
+de 2a ordem e de 4a ordem, ou seja, faça um gráfico com a   solução para
+Δt=0.05 entre t=0 e t=5 (para os 2 métodos de Runge-Kutta)  e  a solução
+exata.
