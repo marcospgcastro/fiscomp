@@ -17,7 +17,7 @@ int main (void) {
   {
     delta_x = (double)1/i;
     derive = ( f(x+delta_x) - f(x) )/delta_x;
-    printf("%10.10f\n",derive);
+    printf("%10.10f\t%10.10f\n",derive,sqrt( (derive-(-4.0896256947))*(derive-(-4.0896256947))));
   }
 
   return 0;
