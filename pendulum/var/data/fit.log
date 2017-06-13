@@ -1,0 +1,223 @@
+
+
+*******************************************************************************
+Fri May 19 16:46:02 2017
+
+
+FIT:    data read from "data.imp.dat"
+        format = z
+        #datapoints = 15
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.5996339696e-03   0.00e+00  1.65e+01    2.844000e+00   8.999942e-03
+   6 2.6440898248e-04  -4.89e-01  1.65e-05    2.847179e+00   4.083305e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.000264409
+rel. change during last iteration : -4.89112e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00450989
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.03392e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.84718          +/- 0.0002695    (0.009466%)
+b               = 0.00408331       +/- 0.002217     (54.3%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.851  1.000 
+
+
+*******************************************************************************
+Fri May 19 16:56:40 2017
+
+
+FIT:    data read from "data.imp.dat"
+        format = z
+        x range restricted to [0.00000 : 10.0000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.3184942622e-04   0.00e+00  1.19e+01    2.847179e+00   4.083305e-03
+   6 2.2182423855e-04  -4.38e-01  1.19e-05    2.846909e+00   4.999697e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 0.000221824
+rel. change during last iteration : -4.37554e-06
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00496459
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.46471e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.84691          +/- 0.0004734    (0.01663%)
+b               = 0.0049997        +/- 0.0028       (56.01%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.845  1.000 
+
+
+*******************************************************************************
+Fri May 19 17:00:58 2017
+
+
+FIT:    data read from "data.impmin.dat"
+        format = z
+        x range restricted to [0.00000 : 10.0000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 2.0735308804e+01   0.00e+00  1.19e+01    2.846909e+00   4.999697e-03
+   7 8.7290077086e-05  -3.02e-02  1.19e-06    2.838909e+00   1.417728e+00
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 8.72901e-05
+rel. change during last iteration : -3.01566e-07
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00311431
+variance of residuals (reduced chisquare) = WSSR/ndf   : 9.6989e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 2.83891          +/- 0.0002969    (0.01046%)
+b               = 1.41773          +/- 0.001757     (0.1239%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.845  1.000 
+
+
+*******************************************************************************
+Fri May 19 17:14:52 2017
+
+
+FIT:    data read from "data.impmax.dat"
+        format = z
+        x range restricted to [0.00000 : 10.0000]
+        #datapoints = 11
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x + b
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 3.4359760479e+01   0.00e+00  1.19e+01    2.838909e+00   1.417728e+00
+   5 2.6359473094e-05  -6.94e-09  1.19e-04    3.117182e+00   1.559091e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.63595e-05
+rel. change during last iteration : -6.94092e-14
+
+degrees of freedom    (FIT_NDF)                        : 9
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00171138
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.92883e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 3.11718          +/- 0.0001632    (0.005235%)
+b               = 1.55909          +/- 0.0009653    (0.06192%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.845  1.000 
+
+
+*******************************************************************************
+Fri May 19 18:13:28 2017
+
+
+FIT:    data read from "data.itevar.dat"
+        format = z
+        x range restricted to [0.00000 : 3.00000]
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b            
+   0 7.3132587569e+04   0.00e+00  1.62e+02    3.117182e+00   1.559091e+00
+   8 2.3131870865e-01  -2.16e-01  1.62e-06    1.264641e+00   2.202445e-01
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 0.231319
+rel. change during last iteration : -2.15919e-06
+
+degrees of freedom    (FIT_NDF)                        : 20
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.107545
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0115659
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 1.26464          +/- 0.03595      (2.843%)
+b               = 0.220245         +/- 0.01803      (8.187%)
+
+correlation matrix of the fit parameters:
+                a      b      
+a               1.000 
+b              -0.875  1.000 
+
+
+*******************************************************************************
+Fri May 19 18:16:26 2017
+
+
+FIT:    data read from "data.itevar.dat"
+        format = z
+        x range restricted to [0.00000 : 3.00000]
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*x*x + b*x + c
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a             b             c            
+   0 2.0056401793e+02   0.00e+00  2.04e+00    1.264641e+00   2.202445e-01   1.000000e+00
+   5 2.6926118147e-02  -1.09e-07  2.04e-05    2.181042e-01  -2.036769e-01   1.478196e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.0269261
+rel. change during last iteration : -1.08685e-12
+
+degrees of freedom    (FIT_NDF)                        : 19
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0376452
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00141716
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a               = 0.218104         +/- 0.01486      (6.815%)
+b               = -0.203677        +/- 0.03929      (19.29%)
+c               = 1.4782           +/- 0.02141      (1.448%)
+
+correlation matrix of the fit parameters:
+                a      b      c      
+a               1.000 
+b              -0.961  1.000 
+c               0.728 -0.859  1.000 
