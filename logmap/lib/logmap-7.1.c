@@ -1,0 +1,33 @@
+// UNIVERSIDADE FEDERAL FLUMINENSE
+// INSTITUTO DE FÍSICA
+// FÍSICA COMPUTACIONAL
+// PROFESSOR: NUNO CROKIDAKIS
+// ALUNO: MARCOS PAULO G DE CASTRO
+//
+// PROGRAMA: LOGMAP.C - MAPA LOGÍSTICO EM LINGUAGEM C
+// DATA: 17/06/2017
+
+# include <stdlib.h>
+# include <string.h>
+# include <stdio.h>
+# include <math.h>
+# include <time.h>
+
+float logmap(float X,float r,int L) {
+
+  float Y;
+  for(int i=1; i<=L; i++) {
+    Y = r*X*(1 - X);
+    X = Y;
+    printf("%d\t%.10f\n",i,Y);
+  }
+
+  return 0;
+}
+
+int main (void) {
+
+  logmap(0.1, 1.00, 200);
+
+  return 0;
+}

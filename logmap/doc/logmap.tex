@@ -219,6 +219,15 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \end{figure}
 
 \begin{figure}
+~~~~~~ Ainda sim podemos realizar um fit por uma função $x(t) = \alpha x^{\beta t}$ via comando GNUplot, obtendo valores $\alpha = 0.121861, \Delta \alpha = 0.003245$ e $\beta = -0.515002, \Delta \beta = 0.0094$ para obter uma curva aproximada, mas que não representa de fato a lei física a qual a ordem de decaimento obedece, ela apenas ilustra o mesmo.
+
+\centering
+\caption{Ajuste por $x(t) = 0.12t^{-0.52}$, em $\lambda = 0.90$.}
+\resizebox{\columnwidth}{!}{\includegraphics{15}}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\end{figure}
+
+\begin{figure}
 \subsection{Caso para $\lambda = 1.00$, no ponto crítico}
 ~~~~~~ Neste caso se espera ver a mudança de comportamento, dado que $\lambda$ está sobre o ponto crítico.
 
@@ -234,6 +243,15 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \centering
 \caption{Log x Log: Verificar lei de potência, em $\lambda = 1.00$.}
 \resizebox{\columnwidth}{!}{\includegraphics{14}}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\end{figure}
+
+\begin{figure}
+~~~~~~ Tornando ao fit, podemos usar para este conjunto de pontos o mesmo recurso via GNUplot, obtendo $\alpha = 0.101214, \Delta \alpha = 0.003283$.
+
+\centering
+\caption{Ajuste por $x(t) = 0.10t^{-0.84}$, em $\lambda = 1.00$.}
+\resizebox{\columnwidth}{!}{\includegraphics{16}}
 \caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
 \end{figure}
 \begin{figure}
