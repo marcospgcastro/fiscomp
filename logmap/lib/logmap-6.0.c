@@ -27,7 +27,7 @@ float logmap(float X,float r,int L) {
 
 int main (void) {
 
-  logmap(0.01, 3.10, 10000);
+  logmap(0.1, 0.90, 10000);
 
   return 0;
 }

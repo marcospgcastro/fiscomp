@@ -1,0 +1,55 @@
+
+
+*******************************************************************************
+Sat Jun 17 10:16:13 2017
+
+
+FIT:    data read from 'data.logmap-6.1.dat'
+        format = z
+        #datapoints = 10000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 711 out of 10000
+x               = 1              
+z               = 0.00137867     
+
+Current set of parameters
+=========================
+a               = 1              
+b               = 1              
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sat Jun 17 10:18:19 2017
+
+
+FIT:    data read from 'data.logmap-6.0.dat'
+        format = z
+        #datapoints = 10000
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a*exp(b*x)
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 711 out of 10000
+x               = 1              
+z               = 0              
+
+Current set of parameters
+=========================
+a               = 1              
+b               = 1              
+
+BREAK: Undefined value during function evaluation

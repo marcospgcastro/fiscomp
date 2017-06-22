@@ -134,9 +134,11 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 
 \section{Valores Excentricos de $\lambda$}
 ~~~~~~ Para valores de $3 \leq \lambda \leq 4$ temos um comportamento caótico, surgem outros pontos atratores, e temos de fazer uso de recursos algébricos específicos para determinar analíticamente os seus respectivos valores.\
-...
 
-\subsection{$\lambda = 3.10$}
+~~~~~~ O mapa parece convergir para diferentes pontos ao mesmo tempo, em observar a massa de dados obtido pela iteração de $(2)$ podemos ver que os pontos se tornam periódicos, logo no lugar de uma convergência clara o mapa se estabiliza em um equilibrio dinâmico, tendo como pontos atratores os valores tangentes as retas normais.
+
+\subsection{Diagrama para $\lambda = 3.10$}
+~~~~~~ Aqui podemos ver o diagrama escada para um dado valor de $\lambda$, onde seus pontos formam uma figura regular seccionando pontos diversos na reta $x'=x$. Este plote não é suficiente para definir os pontos onde o mapa adquire equilibrio dinâmico.\
 
 \centering
 \caption{Mapa Escada $\lambda = 3.10$.}
@@ -145,29 +147,40 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \end{figure}
 
 \begin{figure}
+~~~~~~ Ao plotar os pontos de $x*$ em função de um tempo, dado que cada passo equivale a $1\ segundo$, obtemos a seguinte relação:
+
 \centering
 \caption{Convergência do Mapa Logístico para $\lambda = 3.10$.}
 \resizebox{\columnwidth}{!}{\includegraphics{08}}
 \caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
+
+~~~~~~ Aqui vemos apenas dois pontos, mas já podemos observar como o mapa oscila.
 \end{figure}
 
 \begin{figure}
-\subsection{$\lambda = 3.47$}
+\subsection{Diagrama para $\lambda = 3.47$}
+
+~~~~~~ Neste caso temos mais pontos atratores, já é possível ver o quanto os pontos almentam para uma pequena variação em $\lambda$.
+
 \centering
 \caption{Mapa Escada $\lambda = 3.47$.}
 \resizebox{\columnwidth}{!}{\includegraphics{06}}
 \caption*{$x_{n+1}\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
 \end{figure}
 
+~~~~~~ A oscilação se torna mais excentrica, surgindo maior número de pontos atratores.
 \begin{figure}
 \centering
 \caption{Convergência do Mapa Logístico para $\lambda = 3.47$.}
 \resizebox{\columnwidth}{!}{\includegraphics{09}}
 \caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
+~~~~~~ Vemos neste gráfico que o número de pontos atratores se eleva ao passo que $\lambda$ se eleva.
 \end{figure}
 
 \begin{figure}
-\subsection{$\lambda = 3.55$}
+\subsection{Diagrama para $\lambda = 3.55$}
+~~~~~~ Para este caso o diagrama parece ainda mais confuso, possuindo inumeros pontos onde o mapa corta a reta $x' = x$, sendo também maior o distanciamento dos pontos onde o corroe a intersecção.
+
 \centering
 \caption{Mapa Escada $\lambda = 3.55$.}
 \resizebox{\columnwidth}{!}{\includegraphics{07}}
@@ -175,16 +188,61 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \end{figure}
 
 \begin{figure}
+~~~~~~ Aqui vemos um aumento exponencial no núnemor de pontos atratores. 
 \centering
 \caption{Convergência do Mapa Logístico para $\lambda = 3.55$.}
 \resizebox{\columnwidth}{!}{\includegraphics{10}}
 \caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
+~~~~~~ Este fenômeno ocorre devido a aproximação do valor limite onde seu número tende a uma contagem imensuravel, para $\lambda \leq 4$ podemmos avaliar, sendo melhor visto no mapa bifurcado.
 \end{figure}
 
 \begin{figure}
+\section{Curvas Próximo ao Ponto Crítico}
+~~~~~~ Tornando a avaliar o comportamento temporal para valores de $\lambda$, neste caso se deseja ver o tipo de curva que estas iterações parecem reproduzir, dado que há um decaimento para valores iniciais de $x$ ao realizar as iterações.
+
+\subsection{Caso para $\lambda = 0.90$, inferior ao ponto crítico}
+~~~~~~ Aqui temos um caso em que o $\lambda$ está abaixo do ponto crítico, sendo esperado uma transição de fase, notada por uma mudança bruca no comportamento.
+
+\centering
+\caption{Decaimento temporal, em $\lambda = 0.90$.}
+\resizebox{\columnwidth}{!}{\includegraphics{11}}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\end{figure}
+
+\begin{figure}
+~~~~~~ Claramente vemos que esta curva não descreve uma lei de potência, sendo apenas um decaimento dado por uma curva genérica.
+
+\centering
+\caption{Log x Log: Verificar lei de potência, em $\lambda = 0.90$.}
+\resizebox{\columnwidth}{!}{\includegraphics{12}}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\end{figure}
+
+\begin{figure}
+\subsection{Caso para $\lambda = 1.00$, no ponto crítico}
+~~~~~~ Neste caso se espera ver a mudança de comportamento, dado que $\lambda$ está sobre o ponto crítico.
+
+\centering
+\caption{Decaimento temporal, em $\lambda = 1.00$.}
+\resizebox{\columnwidth}{!}{\includegraphics{13}}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\end{figure}
+
+\begin{figure}
+~~~~~~ Aqui vemos que para valores longos de tempo a curva parece descrever uma lei de potencia, ainda que mais próximo a $t\ = 0$ temos um comprtamento estranho, caraterístico de outro tipo de curva que não dada por uma lei de potência.
+
+\centering
+\caption{Log x Log: Verificar lei de potência, em $\lambda = 1.00$.}
+\resizebox{\columnwidth}{!}{\includegraphics{14}}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\end{figure}
+\begin{figure}
+
 \section{Mapa Bifurcado}
 
 \subsection{Atratores Estranhos}
+
+~~~~~~ Para consumar este trabalho, temos um plote dos pontos de $\lambda$. O longo deste texto fiz mensão diversas vezes a transição e os pontos de $\lambda$. Aqui vemos a relação direta entre os possíveis valores de $x*$ em função da disribuição de $\lambda$, onde contemplamos este mapa conhecido como: Mapa Bifurcado.  Sendo em $\lambda = 4$ um grande númerio de pontos atratores, aparentemente crescente de forma caótica e indeterminada. Tal efeito é oriundo de observarmos muito proximo da evolução temporal do nosso sistema, para tempos maiores provavelmente poderemos notar algum padrão na formação das bifurcações, mas para este regime remos esta figura inusitada. 
 
 \centering
 \caption{$0 \leq \lambda \leq 4.00$.}

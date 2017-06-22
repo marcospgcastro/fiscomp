@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.28)  16 JUN 2017 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.28)  17 JUN 2017 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1332,93 +1332,147 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 135.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 140.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 139.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 139.
+(hyperref)                removing `math shift' on input line 140.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 139.
+(hyperref)                removing `\lambda' on input line 140.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 140.
 
 <05.pdf, id=55, 642.4pt x 481.8pt>
 File: 05.pdf Graphic file (type pdf)
  <use 05.pdf>
-Package pdftex.def Info: 05.pdf used on input line 143.
+Package pdftex.def Info: 05.pdf used on input line 145.
 (pdftex.def)             Requested size: 642.39844pt x 481.79881pt.
 
 <08.pdf, id=56, 917.4275pt x 658.46pt>
 File: 08.pdf Graphic file (type pdf)
  <use 08.pdf>
-Package pdftex.def Info: 08.pdf used on input line 150.
+Package pdftex.def Info: 08.pdf used on input line 154.
 (pdftex.def)             Requested size: 917.42528pt x 658.4584pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 155.
+(babel)             in language  on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 155.
+(hyperref)                removing `math shift' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 155.
+(hyperref)                removing `\lambda' on input line 161.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 155.
+(hyperref)                removing `math shift' on input line 161.
 
 <06.pdf, id=57, 642.4pt x 481.8pt>
 File: 06.pdf Graphic file (type pdf)
  <use 06.pdf>
-Package pdftex.def Info: 06.pdf used on input line 158.
+Package pdftex.def Info: 06.pdf used on input line 167.
 (pdftex.def)             Requested size: 642.39844pt x 481.79881pt.
 
 <09.pdf, id=58, 917.4275pt x 658.46pt>
 File: 09.pdf Graphic file (type pdf)
  <use 09.pdf>
-Package pdftex.def Info: 09.pdf used on input line 165.
+Package pdftex.def Info: 09.pdf used on input line 175.
 (pdftex.def)             Requested size: 917.42528pt x 658.4584pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\lambda' on input line 170.
+(hyperref)                removing `\lambda' on input line 181.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 170.
+(hyperref)                removing `math shift' on input line 181.
 
 <07.pdf, id=59, 642.4pt x 481.8pt>
 File: 07.pdf Graphic file (type pdf)
  <use 07.pdf>
-Package pdftex.def Info: 07.pdf used on input line 173.
+Package pdftex.def Info: 07.pdf used on input line 186.
 (pdftex.def)             Requested size: 642.39844pt x 481.79881pt.
 
 <10.pdf, id=60, 917.4275pt x 658.46pt>
 File: 10.pdf Graphic file (type pdf)
  <use 10.pdf>
-Package pdftex.def Info: 10.pdf used on input line 180.
+Package pdftex.def Info: 10.pdf used on input line 194.
 (pdftex.def)             Requested size: 917.42528pt x 658.4584pt.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 200.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 203.
 
-<forkmap.pdf, id=61, 655.44875pt x 485.815pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 203.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 203.
+
+<11.pdf, id=61, 784.9325pt x 654.445pt>
+File: 11.pdf Graphic file (type pdf)
+ <use 11.pdf>
+Package pdftex.def Info: 11.pdf used on input line 208.
+(pdftex.def)             Requested size: 784.93057pt x 654.4434pt.
+
+<12.pdf, id=62, 642.4pt x 481.8pt>
+File: 12.pdf Graphic file (type pdf)
+ <use 12.pdf>
+Package pdftex.def Info: 12.pdf used on input line 217.
+(pdftex.def)             Requested size: 642.39844pt x 481.79881pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\lambda' on input line 222.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 222.
+
+<13.pdf, id=63, 784.9325pt x 654.445pt>
+File: 13.pdf Graphic file (type pdf)
+ <use 13.pdf>
+Package pdftex.def Info: 13.pdf used on input line 227.
+(pdftex.def)             Requested size: 784.93057pt x 654.4434pt.
+
+<14.pdf, id=64, 642.4pt x 481.8pt>
+File: 14.pdf Graphic file (type pdf)
+ <use 14.pdf>
+Package pdftex.def Info: 14.pdf used on input line 236.
+(pdftex.def)             Requested size: 642.39844pt x 481.79881pt.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 241.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 243.
+
+<forkmap.pdf, id=65, 655.44875pt x 485.815pt>
 File: forkmap.pdf Graphic file (type pdf)
  <use forkmap.pdf>
-Package pdftex.def Info: forkmap.pdf used on input line 191.
+Package pdftex.def Info: forkmap.pdf used on input line 249.
 (pdftex.def)             Requested size: 655.44714pt x 485.81381pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1427,9 +1481,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [3 <./02.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1438,9 +1492,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [4 <./03.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1449,9 +1503,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [5 <./04.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1460,9 +1514,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [6 <./05.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1471,9 +1525,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [7 <./08.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1482,9 +1536,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [8 <./06.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1493,9 +1547,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [9 <./09.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1504,9 +1558,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [10 <./07.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1515,9 +1569,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 [11 <./10.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1526,24 +1580,68 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
+(babel)             in language  on input line 253.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language  on input line 195.
-[12 <./forkmap.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+(babel)             in language  on input line 253.
+[12 <./11.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 18.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+[13 <./12.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 18.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+[14 <./13.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 18.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+[15 <./14.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 18.85004pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 253.
+[16 <./forkmap.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./logmap.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 195.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 253.
  ) 
 Here is how much of TeX's memory you used:
- 11070 strings out of 493029
- 159948 string characters out of 6136234
- 269574 words of memory out of 5000000
- 14354 multiletter control sequences out of 15000+600000
+ 11104 strings out of 493029
+ 160295 string characters out of 6136234
+ 277574 words of memory out of 5000000
+ 14373 multiletter control sequences out of 15000+600000
  32722 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,11n,43p,526b,497s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,11n,43p,724b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
@@ -1559,10 +1657,10 @@ b></usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb
 >
-Output written on logmap.pdf (13 pages, 924580 bytes).
+Output written on logmap.pdf (17 pages, 984556 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 303 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
