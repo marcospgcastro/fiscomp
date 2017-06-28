@@ -63,17 +63,17 @@
 \end{titlepage}
 
 \section*{Introdução}
- ~~~~~ Um Mapa Logistico é uma aplicação matemática que associa um valor um valor $x_{n+1}$ com outro $x_{n}$, tal objeto foi citado inicialmente em um artigo sobre comportamento caotico em equações não lineares, tendo sua popularização em 1976 em um artigo de  Robert May sobre comportamento demográfico.\
+ ~~~~~ Um Mapa Logistico é uma aplicação matemática que associa um valor $x_{n+1}$ com outro $x_{n}$, tal objeto foi citado inicialmente em um artigo sobre comportamento caótico em equações não lineares, tendo sua popularização em 1976 em um artigo de  Robert May sobre comportamento demográfico.\
 ~Oriundo da equações de Pierre François Verhulst:
 \begin{equation}
 \mathrm{\frac{d}{dt}}x(t) = \lambda x(t)\left(1 - \frac{x(t)}{K}\right),\label{eq:diferencial}
 \end{equation}
-aqui trataremos $K = 1$, tal que este assim obtemos o seguinte polinômio de segundo grau:
+aqui trataremos $K = 1$, tal que, obtemos o seguinte polinômio de segundo grau:
 \begin{equation}
 x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \end{equation}
 
-~~ Este moodelo aparentemente simples é muito rico, nele podemos obter informações importantes  no estudo do comportamento caotico. Os pontos em que o mapa se aproxima do seu valor previsto são ditos atratorese, os quais podemos calcular para um dado domínio, haja visto o comportamento caotico do mapa (1) temos valores de $x^*$ para os quais os pontos são diversos e outros métodos algébricos são utilizados:
+~~ Este modelo aparentemente simples é muito rico, nele podemos obter informações importantes  no estudo do comportamento caótico. Os pontos em que o mapa se aproxima do seu valor previsto são ditos atratorese, os quais podemos calcular para um dado domínio, haja visto o comportamento caótico do mapa $(1)$ temos valores de $x^*$ para os quais os pontos são diversos e outros métodos algébricos são utilizados:
 
 \begin{align}
 0\leq \lambda \leq 1&\ ,\ x^* = 0\label{eq:0-1}\\
@@ -84,7 +84,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 
 ~~ Nos itens seguintes faremos uma anlálise deste mapa para diferentes valores de $\lambda$.
 \section{Análise de Convergência}
-~~~~~~~ Dado o mapa $(2)$ podemos iterar o mesmo fazendo uso de um recurso coputacional, como um programa em C no caso deste trabalho, para isso iremos obter uma coluna com valores de $x_{n}$ e outra para passos de tempo, onde cada iteração representa $1\ segundo $. Ao plotar estes valores em um plano cartesiano, depositando o tempo sobre àbscissa e os valores de $x_{n}$ sobre a ordenada obtemos uma curva onde podemos observar a convergência para o valor calculado vide a relação (4).\
+~~~~~~~ Dado o mapa $(2)$ podemos iterar o mesmo fazendo uso de um recurso coputacional, como um programa em C no caso deste trabalho, para isso iremos obter uma coluna com valores de $x_{n}$ e outra para passos de tempo, onde cada iteração representa $1\ segundo $. Ao plotar estes valores em um plano cartesiano, depositando o tempo sobre a abscissa e os valores de $x_{n}$ sobre a ordenada obtemos uma curva onde podemos observar a convergência para o valor calculado vide a relação $(4)$.\
 
 ~~ No gráfico $(1)$ temos $\lambda = 1.01$, para este teremos um valor esperado de $x* = 0.00990$, nele podemos ver que o mapa atige a convergência em torno de $25\ min$. 
 \pagebreak
@@ -94,7 +94,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \centering
 \caption{Convergência do Mapa Logístico para $\lambda = 1.01$.}
 \includegraphics[scale=0.5]{01}
-\caption*{{\scriptsize $x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$ }}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
 \end{figure}
 
 \section{Diagramas e Atratores}
@@ -133,7 +133,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \begin{figure}
 
 \section{Valores Excentricos de $\lambda$}
-~~~~~~ Para valores de $3 \leq \lambda \leq 4$ temos um comportamento caótico, surgem outros pontos atratores, e temos de fazer uso de recursos algébricos específicos para determinar analíticamente os seus respectivos valores.\
+~~~~~~ Para valores de $3 \leq \lambda \leq 4$ temos um comportamento caótico, surgem outros pontos atratores, e temos de fazer uso de recursos algébricos específicos para determinar analiticamente os seus respectivos valores.\
 
 ~~~~~~ O mapa parece convergir para diferentes pontos ao mesmo tempo, em observar a massa de dados obtido pela iteração de $(2)$ podemos ver que os pontos se tornam periódicos, logo no lugar de uma convergência clara o mapa se estabiliza em um equilibrio dinâmico, tendo como pontos atratores os valores tangentes as retas normais.
 
@@ -143,7 +143,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \centering
 \caption{Mapa Escada $\lambda = 3.10$.}
 \resizebox{\columnwidth}{!}{\includegraphics{05}}
-\caption*{$x_{n+1}\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
+\caption*{$x_{n+1}\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }\ 
 \end{figure}
 
 \begin{figure}
@@ -152,7 +152,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \centering
 \caption{Convergência do Mapa Logístico para $\lambda = 3.10$.}
 \resizebox{\columnwidth}{!}{\includegraphics{08}}
-\caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
+\caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }\ 
 
 ~~~~~~ Aqui vemos apenas dois pontos, mas já podemos observar como o mapa oscila.
 \end{figure}
@@ -192,7 +192,8 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \centering
 \caption{Convergência do Mapa Logístico para $\lambda = 3.55$.}
 \resizebox{\columnwidth}{!}{\includegraphics{10}}
-\caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }
+\caption*{$x*\ na\ ordenada\ e\ x_{n}\ na\ abscissa$ }\ 
+
 ~~~~~~ Este fenômeno ocorre devido a aproximação do valor limite onde seu número tende a uma contagem imensuravel, para $\lambda \leq 4$ podemmos avaliar, sendo melhor visto no mapa bifurcado.
 \end{figure}
 
@@ -201,7 +202,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 ~~~~~~ Tornando a avaliar o comportamento temporal para valores de $\lambda$, neste caso se deseja ver o tipo de curva que estas iterações parecem reproduzir, dado que há um decaimento para valores iniciais de $x$ ao realizar as iterações.
 
 \subsection{Caso para $\lambda = 0.90$, inferior ao ponto crítico}
-~~~~~~ Aqui temos um caso em que o $\lambda$ está abaixo do ponto crítico, sendo esperado uma transição de fase, notada por uma mudança bruca no comportamento.
+~~~~~~ Aqui temos um caso em que o $\lambda$ está abaixo do ponto crítico.
 
 \centering
 \caption{Decaimento temporal, em $\lambda = 0.90$.}
@@ -213,18 +214,20 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 ~~~~~~ Claramente vemos que esta curva não descreve uma lei de potência, sendo apenas um decaimento dado por uma curva genérica.
 
 \centering
-\caption{Log x Log: Verificar lei de potência, em $\lambda = 0.90$.}
+\caption{Log $x(t)$ x Log $t$: Verificar lei de potência, em $\lambda = 0.90$.}
 \resizebox{\columnwidth}{!}{\includegraphics{12}}
 \caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
 \end{figure}
 
 \begin{figure}
-~~~~~~ Ainda sim podemos realizar um fit por uma função $x(t) = \alpha x^{\beta t}$ via comando GNUplot, obtendo valores $\alpha = 0.121861, \Delta \alpha = 0.003245$ e $\beta = -0.515002, \Delta \beta = 0.0094$ para obter uma curva aproximada, mas que não representa de fato a lei física a qual a ordem de decaimento obedece, ela apenas ilustra o mesmo.
+~~~~~~ Ainda sim podemos realizar um fit por uma função $x(t) = \alpha x^{\beta t}$ via comando GNUplot, obtendo valores $\alpha = 0.101214, \Delta \alpha = 0.003283$ e $\beta = -0.845283, \Delta \beta = 0.02238$ para obter uma curva aproximada.\
 
 \centering
-\caption{Ajuste por $x(t) = 0.12t^{-0.52}$, em $\lambda = 0.90$.}
+\caption{Ajuste por $x(t) = 0.10t^{-0.85}$, em $\lambda = 0.90$.}
 \resizebox{\columnwidth}{!}{\includegraphics{15}}
-\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
+\caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}\ 
+
+~~~~~~ Esta curva não representa de fato a lei física a qual o problema descreve, apenas aproxima um conjunto de valores para que tenhamos um parâmetro, sendo um ajuste para uma curva.
 \end{figure}
 
 \begin{figure}
@@ -238,19 +241,20 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 \end{figure}
 
 \begin{figure}
-~~~~~~ Aqui vemos que para valores longos de tempo a curva parece descrever uma lei de potencia, ainda que mais próximo a $t\ = 0$ temos um comprtamento estranho, caraterístico de outro tipo de curva que não dada por uma lei de potência.
+~~~~~~ Aqui vemos que para valores longos de tempo a curva parece descrever uma lei de potência, ainda que mais próximo a $t\ = 0$ temos um comprtamento estranho, caraterístico de outro tipo de curva que não dada por uma lei de potência.
 
 \centering
-\caption{Log x Log: Verificar lei de potência, em $\lambda = 1.00$.}
+\caption{Log $x(t)$ x Log $t$: Verificar lei de potência, em $\lambda = 1.00$.}
 \resizebox{\columnwidth}{!}{\includegraphics{14}}
 \caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
 \end{figure}
 
 \begin{figure}
-~~~~~~ Tornando ao fit, podemos usar para este conjunto de pontos o mesmo recurso via GNUplot, obtendo $\alpha = 0.101214, \Delta \alpha = 0.003283$.
+
+~~~~~~ Tornando ao fit, podemos usar para este conjunto de pontos o mesmo recurso via GNUplot, obtendo $\alpha = 0.121861, \Delta \alpha = 0.003245$ e $\beta = -0.515002, \Delta \beta = 0.0094$.
 
 \centering
-\caption{Ajuste por $x(t) = 0.10t^{-0.84}$, em $\lambda = 1.00$.}
+\caption{Ajuste por $x(t) = 0.12t^{-0.52}$, em $\lambda = 1.00$.}
 \resizebox{\columnwidth}{!}{\includegraphics{16}}
 \caption*{$x\ na\ ordenada\ e\ tempo(segundos)\ na\ abscissa$}
 \end{figure}
@@ -260,7 +264,7 @@ x_{n+1} = \lambda x_n(1-x_n),\label{eq:map}
 
 \subsection{Atratores Estranhos}
 
-~~~~~~ Para consumar este trabalho, temos um plote dos pontos de $\lambda$. O longo deste texto fiz mensão diversas vezes a transição e os pontos de $\lambda$. Aqui vemos a relação direta entre os possíveis valores de $x*$ em função da disribuição de $\lambda$, onde contemplamos este mapa conhecido como: Mapa Bifurcado.  Sendo em $\lambda = 4$ um grande númerio de pontos atratores, aparentemente crescente de forma caótica e indeterminada. Tal efeito é oriundo de observarmos muito proximo da evolução temporal do nosso sistema, para tempos maiores provavelmente poderemos notar algum padrão na formação das bifurcações, mas para este regime remos esta figura inusitada. 
+~~~~~~ Para consumar este trabalho, temos um plote dos pontos de $\lambda$. O longo deste texto fiz mensão diversas vezes a transição e os pontos de $\lambda$. Aqui vemos a relação direta entre os possíveis valores de $x*$ em função da disribuição de $\lambda$, onde contemplamos este mapa conhecido como: Mapa Bifurcado.  Sendo em $\lambda = 4$ um grande númerio de pontos atratores, aparentemente crescente de forma caótica e indeterminada. Tal efeito é oriundo de observarmos muito proximo a evolução temporal do nosso sistema, para tempos maiores devemos notar algum padrão mais geral.
 
 \centering
 \caption{$0 \leq \lambda \leq 4.00$.}
