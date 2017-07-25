@@ -1,27 +1,35 @@
 # include <stdio.h>
 # include <math.h>
-
-# define p 0.75
-# define T 1024
-
-int x,t;
-double r,u[T+2], ua[T+2];
-
-# define tol 0.0000000000000001
+# include <time.h>
+# include <stdlib.h>
 
 int main (void) {
 
- u[0] = 1; for(x = 1; x<T+1; x++) u[x] = 0;
- t = 0;
- do{
-  t++;
-  for(x=0; x<t+1; x++) ua[x] = u[x];
-  u[0] = p*ua[1]*(2 - p*ua[1]);
-  for(x=1; x<=t; x++) u[x] = 1 - (1-p*ua[x+1])*(1-p*ua[x-1]);
- } while(t<T);
- for(x=0; x<t; x++)
-  if(u[x]>tol) printf("\n %d %20.16lf",x,u[x]);
- printf("\n\n");
+ srand(time(NULL));
+
+ double r, S[100000];
+ int  p,W[100000];
+
+ for(int j=1; j<=10000; j++) S[j] = W[j] = 0;
+
+ for(int i=1; i<=10000; i++) {
+   p = 50000; W[p]++;
+
+   for(int j=1; j<=100000; j++) {
+
+     r = (double)rand()/RAND_MAX;
+
+     if(r > 0.5) p++; W[p]++;
+     if(r < 0.5) p--; W[p]++;
+
+   }
+
+    for(int j=1; j<=100000; j++) S[j] += (double)W[j]/10000000000000;
+ }
+
+   for(int j=1; j<=100000; j++) {
+     if(S[j] > 0.00000000000001 && S[j] < 1 ) printf("%d\t %2.10f\n",j,S[j]);
+   }
 
  return 0 ;
 

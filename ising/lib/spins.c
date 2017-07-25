@@ -94,7 +94,7 @@ int main (int argc,char *argv[]) {
         E = (double)(2*S[i][j]*sum);
         if( E <= 0) {
           S[i][j] = (-1)*S[i][j];
-          sum_E  += fabs(sum);
+          sum_E  += (double)(-S[i][j]*sum);
           Quad_E += sum*sum;
           N++;
         }
@@ -102,7 +102,7 @@ int main (int argc,char *argv[]) {
         r = (double)rand()/RAND_MAX;
         if( E >  0 && r <= exp(-E/T) ) {
           S[i][j] = (-1)*S[i][j];
-          sum_E  += fabs(sum);
+          sum_E  += (double)(-S[i][j]*sum);
           Quad_E += sum*sum;
           N++;
         }
@@ -145,7 +145,7 @@ int main (int argc,char *argv[]) {
     }
   }
 
-  printf("%1.3f\t %5.10f\t %5.10f\t %5.10f\t %5.10f\n",T,fabs(Med_m),Med_E,Med_Xsi,C);
+  printf("%1.3f\t %5.10f\t %5.10f\t %5.10f\t %5.10f\n",T,fabs(Med_m),Med_E*L*L,Med_Xsi,C);
   }
 
   return 0;
